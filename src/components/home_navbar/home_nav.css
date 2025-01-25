@@ -43,3 +43,33 @@
     color: #002034;
     border: 1px solid #002034;
 }
+
+@media (max-width: 768px){
+    .home_nav{
+        padding: 3.5rem 4rem;
+    }
+
+    .home_nav .logo{
+        font-size: 6vw;
+    }
+
+    .contact_button{
+        font-size: 3vw;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 425px){
+    .home_nav{
+        padding: 3.5rem 2rem;
+    }
+
+    .home_nav .logo{
+        font-size: 10vw;
+    }
+
+    .contact_button{
+        font-size: 5vw;
+        padding: 0.5rem 1rem;
+    }
+}

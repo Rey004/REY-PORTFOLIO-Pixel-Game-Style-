@@ -49,3 +49,58 @@
     right: 10%;
     z-index: 0;
 }
+
+@media (max-width:768px) {
+    .main_bg{
+        width: 120%;
+        opacity: 0.08;
+    }
+    .blur1{
+        width: 50%;
+        filter: blur(120px);
+        opacity: 0.35;
+        bottom: -40%;
+    }
+    .blur2{
+        width: 40%;
+        filter: blur(120px);
+        opacity: 0.35;
+        top: 10%;
+        left: 0;
+    }
+    .blur3{
+        width: 30%;
+        filter: blur(120px);
+        opacity: 0.35;
+        top: 10%;
+        right: 10%;
+    }
+}
+
+@media (max-width:425px) {
+    .main_bg{
+        width: 180%;
+        opacity: 0.08;
+    }
+    .blur1{
+        width: 60%;
+        filter: blur(100px);
+        opacity: 0.45;
+        bottom: -25%;
+    }
+    .blur2{
+        width: 40%;
+        filter: blur(100px);
+        opacity: 0.55;
+        top: 10%;
+        left: 0;
+    }
+    .blur3{
+        width: 30%;
+        filter: blur(100px);
+        opacity: 0.55;
+        top: 10%;
+        right: 10%;
+    }
+    
+}
