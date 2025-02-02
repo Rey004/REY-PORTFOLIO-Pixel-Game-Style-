@@ -211,7 +211,7 @@
         font-size: 3vw;
     }
     .contactpage_container_form textarea{
-        height: 150px;
+        height: auto;
     }
     .contact_details input,
     .contact_details input::placeholder,
