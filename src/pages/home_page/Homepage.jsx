@@ -1,7 +1,8 @@
 import React from 'react'
 import './homepage.css'
-import Home_nav from '../../components/home_navbar/Home_nav.jsx'
+import Home_nav from '../../components/home_navbar/Home_nav'
 import Main_bg from '../../components/main_bg/Main_bg.jsx'
+import { Link } from 'react-router-dom'
 
 const Homepage = () => {
   return (
@@ -11,8 +12,8 @@ const Homepage = () => {
         <h1 className='name'>I'm <span>REVANSHU</span></h1>
         <h1 className='profession'>DEVELOPER & DESIGNER</h1>
         <div className="buttons">
-          <button className='about_button'>About Me</button>
-          <button className='portfolio_button'>Portfolio</button>
+          <Link to={'about'}><button className='about_button'>About Me</button></Link>
+          <Link to={'portfolio'}><button className='portfolio_button'>Portfolio</button></Link>
         </div>
       </div>
       <video src="assets/character.webm" loop autoPlay muted></video>

@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0 2rem;
+}
+
+.nav_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255);
+    border-bottom: 3px solid rgb(156, 156, 156);
+    border-left: 3px solid rgb(156, 156, 156);
+    border-right: 3px solid rgb(156, 156, 156);
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    gap: 2.5rem;
+}
+
+
+.nav_container img {
+    width: 27px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav_container img:hover {
+    transform: scale(1.1);
+}
+
