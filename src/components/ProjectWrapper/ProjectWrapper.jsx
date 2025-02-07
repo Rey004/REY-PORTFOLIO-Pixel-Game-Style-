@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import "./projectWrapper.css";
+import backwardArrow from '/assets/Backward_arrow.webp';
+import forwardArrow from '/assets/Forward_arrow.webp';
 
 const projects = [
   { id: 1, name: 'Project 1', path: '/portfolio/project1' },
@@ -52,8 +54,8 @@ const ProjectWrapper = ({ children }) => {
     <section className='project-wrapper'>
       <div>
         {children}
-        <button className="swiper-button-prev" onClick={handlePrev}><img src="/public/assets/Backward_arrow.svg" alt="Previous" /></button>
-        <button className="swiper-button-next" onClick={handleNext}><img src="/public/assets/Forward_arrow.svg" alt="Next" /></button>
+        <button className="swiper-button-prev" onClick={handlePrev}><img src={backwardArrow} alt="Previous" /></button>
+        <button className="swiper-button-next" onClick={handleNext}><img src={forwardArrow} alt="Next" /></button>
       </div>
     </section>
   );

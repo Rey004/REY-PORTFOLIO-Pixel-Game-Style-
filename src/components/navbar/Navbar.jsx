@@ -7,16 +7,16 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className="nav_container">
         <Link to="/">
-          <img src="assets/Home_Icon.svg" alt="Home" />
+          <img src="assets/Home_Icon.webp" alt="Home" />
         </Link>
         <Link to="/about">
-          <img src="assets/About_Icon.svg" alt="About" />
+          <img src="assets/About_Icon.webp" alt="About" />
         </Link>
         <Link to="/portfolio">
-          <img src="assets/Portfolio_Icon.svg" alt="Portfolio" />
+          <img src="assets/Portfolio_Icon.webp" alt="Portfolio" />
         </Link>
         <Link to="/contact">
-          <img src="assets/Contact_Icon.svg" alt="Contact" />
+          <img src="assets/Contact_Icon.webp" alt="Contact" />
         </Link>
       </div>
     </nav>

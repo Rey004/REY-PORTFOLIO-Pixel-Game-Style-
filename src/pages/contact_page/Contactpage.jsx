@@ -51,11 +51,11 @@ const Contactpage = () => {
               <input type="email" placeholder="Email" name="email" required />
               <input type="number" placeholder="Phone Number" name="phone" required />
               <div className="socials">
-                <img src="assets/Pixel Star.svg" alt="pixel star" />
-                <a href="https://www.instagram.com/revanshu_04" target="_blank" rel="noopener noreferrer"><img src="assets/Instagram_Icon.svg" alt="instagram icon" /></a>
-                <a href="https://github.com/Rey004" target="_blank" rel="noopener noreferrer"><img src="assets/Github_Icon.svg" alt="github icon" /></a>
-                <a href="https://www.linkedin.com/in/revanshu/?fbclid=PAY2xjawGrI71leHRuA2FlbQIxMQABplPXMwQVMSUFi4c-rqsYHZ58jtf9mIOToHqDklAmG7cMs9Bh7uH5i70J4w_aem_lCzZ0rWKtnVGQ4ks_o9Kmg" target="_blank" rel="noopener noreferrer"><img src="assets/LinkedIn_Icon.svg" alt="linkedin icon" /></a>
-                <img src="assets/Pixel Star.svg" alt="pixel star" />
+                <img src="assets/Pixel Star.webp" alt="pixel star" />
+                <a href="https://www.instagram.com/revanshu_04" target="_blank" rel="noopener noreferrer"><img src="assets/Instagram_Icon.webp" alt="instagram icon" /></a>
+                <a href="https://github.com/Rey004" target="_blank" rel="noopener noreferrer"><img src="assets/Github_Icon.webp" alt="github icon" /></a>
+                <a href="https://www.linkedin.com/in/revanshu/?fbclid=PAY2xjawGrI71leHRuA2FlbQIxMQABplPXMwQVMSUFi4c-rqsYHZ58jtf9mIOToHqDklAmG7cMs9Bh7uH5i70J4w_aem_lCzZ0rWKtnVGQ4ks_o9Kmg" target="_blank" rel="noopener noreferrer"><img src="assets/LinkedIn_Icon.webp" alt="linkedin icon" /></a>
+                <img src="assets/Pixel Star.webp" alt="pixel star" />
 
               </div>
             </div>
