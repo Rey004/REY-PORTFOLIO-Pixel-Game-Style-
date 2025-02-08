@@ -1,15 +1,15 @@
 * {
-  cursor: url('/assets/arrow.png'), auto !important;
+  cursor: url('/assets/arrow.webp'), auto !important;
 }
 
 *:hover {
-  cursor: url('/assets/arrow.png'), pointer !important;
+  cursor: url('/assets/arrow.webp'), pointer !important;
 }
 
 /* For clickable elements */
 a:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover, 
 .clickable:hover, [role="button"]:hover, .linkedin:hover, .instagram:hover, img:hover {
-  cursor: url('/assets/link.png'), pointer !important;
+  cursor: url('/assets/link.webp'), pointer !important;
 }
 
 @font-face {
