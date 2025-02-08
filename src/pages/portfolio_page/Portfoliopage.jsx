@@ -9,7 +9,7 @@ const Portfoliopage = () => {
     <section className='portfoliopage'>
       <Navbar />
       <Outlet />
-      <Main_bg />
+      {/* <Main_bg /> */}
     </section>
   );
 };
