@@ -8,7 +8,7 @@ const Project1 = () => {
             <Portfolioproject 
             backgroundImage={'/assets/Code_Vantage_bg.webp'}
             project_name={'Code Vantage'}
-            project_overview={'Code Vantage is a Web Design Agency which is co-founded by me and I have designed the the UI, 3D elements that are included in the website and developed it with React.This website is interactive, futuristic and visually appealing. '}
+            project_overview={'Code Vantage is a Web Design Agency which is co-founded by me it help people to create next-gen web interface. This website is interactive, futuristic and visually appealing. '}
             role={'UI/UX Designer, Developer'}
             tech={'Figma, Photoshop, Spline, React, GSAP, CSS'}
             link={'https://codevantage.in'}
