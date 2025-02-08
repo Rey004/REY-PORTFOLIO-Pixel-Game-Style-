@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectWrapper from '../../../components/ProjectWrapper/ProjectWrapper'
 import Portfolioproject from '../../../components/portfolio_project/Portfolioproject'
 
-const Project2 = () => {
+const Rey_Ventures = () => {
     return (
         <ProjectWrapper>
             <Portfolioproject 
@@ -17,4 +17,4 @@ const Project2 = () => {
     )
 }
 
-export default Project2
+export default Rey_Ventures

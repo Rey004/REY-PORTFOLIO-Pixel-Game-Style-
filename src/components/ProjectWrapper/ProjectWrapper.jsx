@@ -6,8 +6,8 @@ import forwardArrow from '/assets/Forward_arrow.webp';
 
 const projects = [
   { id: 1, name: 'Code_Vantage', path: '/portfolio/codevantage' },
-  { id: 2, name: 'Project 2', path: '/portfolio/project2' },
-  { id: 3, name: 'Project 3', path: '/portfolio/project3' },
+  { id: 2, name: 'Rey_Ventures', path: '/portfolio/reyventures' },
+  { id: 3, name: 'Freak_Lifestyle', path: '/portfolio/freaklifestyle' },
   // Add more projects as needed
 ];
 

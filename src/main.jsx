@@ -8,9 +8,9 @@ import Portfoliopage from './pages/portfolio_page/Portfoliopage.jsx';
 import Aboutpage from './pages/about_page/Aboutpage.jsx';
 import Contactpage from './pages/contact_page/Contactpage.jsx';
 import Code_Vantage from './pages/portfolio_page/Project/Code_Vantage.jsx';
-import Project2 from './pages/portfolio_page/Project/Project2.jsx';
-import Project3 from './pages/portfolio_page/Project/Project3.jsx';
+import Freak_Lifestyle from './pages/portfolio_page/Project/Freak_Lifestyle.jsx';
 import Allproject from './pages/all_project_page/Allproject.jsx';
+import Rey_Ventures from './pages/portfolio_page/Project/Rey_Ventures.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,8 +19,8 @@ const router = createBrowserRouter(
       <Route path='portfolio' element={<Portfoliopage/>}>
         <Route index element={<Navigate to="codevantage" replace />} />
         <Route path='codevantage' element={<Code_Vantage/>}/>
-        <Route path='project2' element={<Project2/>}/>
-        <Route path='project3' element={<Project3/>}/>
+        <Route path='reyventures' element={<Rey_Ventures/>}/>
+        <Route path='freaklifestyle' element={<Freak_Lifestyle/>}/>
       </Route>
       <Route path='about' element={<Aboutpage/>}/>
       <Route path='contact' element={<Contactpage/>}/>
