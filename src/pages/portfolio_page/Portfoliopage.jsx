@@ -10,6 +10,10 @@ const Portfoliopage = () => {
       <Navbar />
       <Outlet />
       {/* <Main_bg /> */}
+      <button onClick={() => window.open('/all-projects', '_self')} className="all-projects">
+        All Projects
+        <img src="/assets/Forward.webp" alt="" />
+      </button>
     </section>
   );
 };

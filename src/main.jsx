@@ -10,6 +10,7 @@ import Contactpage from './pages/contact_page/Contactpage.jsx';
 import Code_Vantage from './pages/portfolio_page/Project/Code_Vantage.jsx';
 import Project2 from './pages/portfolio_page/Project/Project2.jsx';
 import Project3 from './pages/portfolio_page/Project/Project3.jsx';
+import Allproject from './pages/all_project_page/Allproject.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path='about' element={<Aboutpage/>}/>
       <Route path='contact' element={<Contactpage/>}/>
+      <Route path='all-projects' element={<Allproject/>}/>
     </Route>
   )
 );
