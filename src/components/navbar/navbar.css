@@ -29,16 +29,27 @@
     gap: 2.5rem;
 }
 
+.nav_container img.active {
+    filter: brightness(1.5);
+    transform: scale(1.1);
+}
+
+.nav_container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .nav_container img {
-    width: 27px;
-    height: auto;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .nav_container img:hover {
     transform: scale(1.1);
+    filter: brightness(1.2);
 }
 
 @media (max-width: 768px) {

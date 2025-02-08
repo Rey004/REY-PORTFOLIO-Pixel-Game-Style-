@@ -1,22 +1,46 @@
 import React from 'react'
+import { useLocation, Link } from 'react-router-dom'
 import './navbar.css'
-import { Link } from 'react-router-dom'
+
+// Import images directly
+import homeIcon from '/assets/Home_Icon.webp'
+import aboutIcon from '/assets/About_Icon.webp'
+import portfolioIcon from '/assets/Portfolio_Icon.webp'
+import contactIcon from '/assets/Contact_Icon.webp'
 
 const Navbar = () => {
+  const location = useLocation();
+
   return (
-    <nav className='navbar'>
+    <nav className='navbar' key={location.pathname}>
       <div className="nav_container">
         <Link to="/">
-          <img src="assets/Home_Icon.webp" alt="Home" />
+          <img 
+            src={homeIcon}
+            alt="Home" 
+            className={location.pathname === '/' ? 'active' : ''}
+          />
         </Link>
         <Link to="/about">
-          <img src="assets/About_Icon.webp" alt="About" />
+          <img 
+            src={aboutIcon}
+            alt="About" 
+            className={location.pathname === '/about' ? 'active' : ''}
+          />
         </Link>
         <Link to="/portfolio">
-          <img src="assets/Portfolio_Icon.webp" alt="Portfolio" />
+          <img 
+            src={portfolioIcon}
+            alt="Portfolio" 
+            className={location.pathname === '/portfolio' ? 'active' : ''}
+          />
         </Link>
         <Link to="/contact">
-          <img src="assets/Contact_Icon.webp" alt="Contact" />
+          <img 
+            src={contactIcon}
+            alt="Contact" 
+            className={location.pathname === '/contact' ? 'active' : ''}
+          />
         </Link>
       </div>
     </nav>
