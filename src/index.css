@@ -60,3 +60,27 @@ body {
   position: relative;
 }
 
+/* Add after your existing styles */
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus {
+  outline: none;
+}
+
+/* Remove default focus styles for all elements */
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Only allow text selection for specific elements */
+p, h1, h2, h3, h4, h5, h6 {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
