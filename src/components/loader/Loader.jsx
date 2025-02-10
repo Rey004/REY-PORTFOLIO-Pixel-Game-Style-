@@ -1,5 +1,5 @@
 import React from 'react'
-import Main_bg from '../Main_bg/Main_bg'
+import Main_bg from '../../components/main_bg/Main_bg'
 import './loader.css'
 
 const Loader = () => {
@@ -8,8 +8,6 @@ const Loader = () => {
       <div className="loader"></div>
       <Main_bg/>
     </div>
-
-
   )
 }
 
