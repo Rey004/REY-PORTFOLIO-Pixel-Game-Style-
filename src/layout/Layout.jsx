@@ -1,12 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Outlet } from 'react-router-dom'
+import Loader from '../components/loader/Loader'
 
-const Layout1 = () => {
+const Layout = () => {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 2000)
+
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <>
-      <Outlet/>
+      {loading && <Loader />}
+      <Outlet />
     </>
   )
 }
 
-export default Layout1
+export default Layout
