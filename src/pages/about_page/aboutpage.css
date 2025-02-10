@@ -5,7 +5,36 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-
     position: relative;
     overflow: hidden;
 }
+
+.work_in_progress{
+    width: 50%;
+    animation: floating 3s ease-in-out infinite;
+}
+
+
+@media (max-width: 768px) {
+    .work_in_progress{
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .work_in_progress{
+        width: 100%;
+    }
+}
+
+@keyframes floating {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }

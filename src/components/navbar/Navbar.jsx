@@ -21,13 +21,13 @@ const Navbar = () => {
             className={location.pathname === '/' ? 'active' : ''}
           />
         </Link>
-        {/* <Link to="/about">
+        <Link to="/about">
           <img 
             src={aboutIcon}
             alt="About" 
             className={location.pathname === '/about' ? 'active' : ''}
           />
-        </Link> */}
+        </Link>
         <Link to="/portfolio">
           <img 
             src={portfolioIcon}

@@ -12,7 +12,7 @@ const Homepage = () => {
         <h1 className='name'>I'm <span>REVANSHU</span></h1>
         <h1 className='profession'>DEVELOPER & DESIGNER</h1>
         <div className="buttons">
-          {/* <Link to={'about'}><button className='about_button'>About Me</button></Link> */}
+          <Link to={'about'}><button className='about_button'>About Me</button></Link>
           <Link to={'portfolio'}><button className='portfolio_button'>Portfolio</button></Link>
         </div>
       </div>

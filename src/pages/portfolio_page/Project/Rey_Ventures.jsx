@@ -8,7 +8,7 @@ const Rey_Ventures = () => {
             <Portfolioproject 
             backgroundImage={'/assets/Rey-Ventures.webp'}
             project_name={'Rey Ventures'}
-            project_overview={'My purpose behind starting Rey Ventures is to aware people about the things which are relevant and are useful to make an impact on the society so that the world can be a better place .'}
+            project_overview={'My purpose behind starting Rey Ventures is to share my experience through storytelling videos. This website is visualy appealing portfolio of that project.'}
             role={'UI/UX Designer, Developer'}
             tech={'Figma, Photoshop, GSAP, CSS'}
             link={'https://rey004.github.io/Rey-Ventures/'}

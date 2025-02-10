@@ -9,7 +9,7 @@ const Freak_Lifestyle = () => {
         <Portfolioproject
           backgroundImage={'/assets/Freak-Lifestyle.webp'}
           project_name={'Freak Lifestyle'}
-          project_overview={'Streetwear Clothing Brand '}
+          project_overview={'Streetwear Clothing Brand which is co-founded by me, it is a platform for people to buy streetwear clothing. This website is an eccomerse store for that brand.'}
           role={'Co-founder, Developer'}
           tech={'Wordpress, WooCommerce, Elementor'}
           link={'https://freaklifestyle.com'}

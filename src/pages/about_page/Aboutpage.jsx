@@ -8,8 +8,10 @@ const Aboutpage = () => {
   return (
     <section className='aboutpage'>
       <Navbar/>
+      <img src="assets/work_in_progress.webp" alt="about_bg" className='work_in_progress'/>
       <Main_bg/>
     </section>
+
   )
 }
 
