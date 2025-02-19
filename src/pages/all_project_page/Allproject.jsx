@@ -8,12 +8,12 @@ const Allproject = () => {
   const projects = [
     { id: 1, name: 'Code Vantage', description: 'Web Design Agency, interactive & Visually appealing website', link: '/portfolio/codevantage' },
     { id: 2, name: 'Freak Lifestyle', description: 'Streetwear Clothing Brand', link: '/portfolio/freaklifestyle' },
-    { id: 3, name: 'Rey Ventures', description: 'Documenting life', link: '/portfolio/reyventures' },
-    { id: 4, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '/portfolio/project4' },
-    { id: 5, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '/portfolio/project5' },
-    { id: 6, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '/portfolio/project6' },
-    { id: 7, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '/portfolio/project7' },
+    { id: 3, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '#' },
+    { id: 4, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '#' },
+    // { id: 5, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '#' },
+    // { id: 6, name: 'Coming Soon', description: 'lorem ipsum dolor set emit', link: '#' },
     // Add more projects as needed
+    // { id: 3, name: 'Rey Ventures', description: 'Documenting life', link: '/portfolio/reyventures' },
   ];
 
   return (

@@ -19,7 +19,7 @@ const router = createBrowserRouter(
       <Route path='portfolio' element={<Portfoliopage/>}>
         <Route index element={<Navigate to="codevantage" replace />} />
         <Route path='codevantage' element={<Code_Vantage/>}/>
-        <Route path='reyventures' element={<Rey_Ventures/>}/>
+        {/* <Route path='reyventures' element={<Rey_Ventures/>}/> */}
         <Route path='freaklifestyle' element={<Freak_Lifestyle/>}/>
       </Route>
       <Route path='about' element={<Aboutpage/>}/>
